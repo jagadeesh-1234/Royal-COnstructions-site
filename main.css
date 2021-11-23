@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tm-header{
+    
+    display: block;
+    padding: 20px;
+    
+}
+
+
+.tm-nav{
+   max-width: 100%;
+       border: 3px solid #0a0101;
+    display: block;
+  
+    margin: 3px auto 1px auto;
+  
+}
+
+.tm-nav div
+{
+    display: table;
+    padding: 10px;
+    margin: 2px auto;
+}
+
+.tm-nav div ul li{
+    display:inline-block;  
+   
+}
+
+
+.tm-nav div ul li a{
+    font-size: 1.8vmax;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: rgb(30, 5, 36);
+    line-height: 40px;
+    
+    
+}
+.tm-nav div ul li a:hover{
+    
+    color: #f36643;
+}
+
